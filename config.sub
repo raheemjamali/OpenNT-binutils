@@ -1397,7 +1397,7 @@ case $os in
 		os=`echo $os | sed -e 's|nto|nto-qnx|'`
 		;;
 	sim | xray | os68k* | v88r* \
-	    | windows* | osx | abug | netware* | os9* \
+	    | windows* | opennt* | osx | abug | netware* | os9* \
 	    | macos* | mpw* | magic* | mmixware* | mon960* | lnews*)
 		;;
 	linux-dietlibc)
